@@ -10,9 +10,9 @@ namespace Lab10
         BufferOutput bufferOutput = new BufferOutput();
         public void Run()
         {
-            //Создём класс по введенному в консоль пути
+            //Создаём класс по введенному в консоль пути
             parser = new Parser(Console.ReadLine());
-            // получаем объектный код и выдвем его в буффер обмена
+            // получаем объектный код и выведем его в буфер обмена
             bufferOutput.SetBufferText(parser.Parse());
         }
     }
